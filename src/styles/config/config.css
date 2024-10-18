@@ -1,16 +1,28 @@
 /* Шрифты и body,container*/
 
+@font-face {
+   font-family: Gilroy-Bold;
+   font-weight: 800;
+   font-style: normal;
+   src: url(../fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+   font-family: Gilroy-Medium;
+   font-weight: 400;
+   font-style: normal;
+   src: url(../fonts/Gilroy-Medium.woff2);
+}
+
 h1 {
-   color: var(--Black, #070707);
    font-family: Gilroy-Bold;
    font-size: 47px;
    font-style: normal;
-   font-weight: 400;
+   font-weight: 800;
    line-height: normal;
 }
 
 h2, h3 {
-   color: var(--Black, #070707);
    text-align: center;
    font-family: Gilroy-Bold;
    font-size: 34px;
@@ -23,8 +35,7 @@ a {
    color: #fff;
 }
 
-p {
-   color: var(--Black, #070707);
+p, li, a {
    text-align: center;
    font-family: Gilroy-Medium;
    font-size: 18px;
@@ -47,6 +58,18 @@ figcaption {
 
 footer {
    padding-bottom: 67px;
+}
+
+.nav__list {
+   color: #828282;
+   font-size: 18px;
+   color: #828282;
+   font-weight: 400;
+}
+
+.nav__list:hover {
+   color: black;
+   opacity: 0.7;
 }
 
 .black__link {

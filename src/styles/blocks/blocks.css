@@ -4,17 +4,6 @@
    justify-content: space-between;
 }
 
-.nav__list {
-   color: #828282;
-   font-size: 18px;
-   color: #828282;
-   font-weight: 400;
-}
-
-.nav__list:hover {
-   color: black;
-   opacity: 0.7;
-}
 
 .nav {
    padding-top: 1em;
@@ -38,7 +27,8 @@
    max-width: 156px;
    max-height: 44px;
    align-self: flex-end;
-   padding-bottom: 50px;
+   /* padding-bottom: 50px; */
+   margin-bottom: 50px;
 }
 
 /* MAIN/SECTION:ABOUT  */
@@ -54,6 +44,8 @@
    text-align: center;
    margin: 0 auto;
 }
+
+
 
 /* MAIN/SECTION:SKILLS  */
 
@@ -147,6 +139,7 @@
 .postscriptum {
    text-align: center;
    color: #828282;
+   font-family: Gilroy-Medium;
    font-size: 14px;
    font-style: normal;
    font-weight: 400;

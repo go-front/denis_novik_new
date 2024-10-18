@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/global.css" />
+    <link
+      rel="apple-touch-icon"
+      href="./src/icons/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./src/icons/favicons/favicon.ico"
+    />
+
+    <title>Denis Novik</title>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <ul class="header__nav">
+          <li>
+            <a href="#" class="nav__list">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav__list">About me</a>
+          </li>
+          <li>
+            <a href="#" class="nav__list">Skills</a>
+          </li>
+          <li>
+            <a href="#" class="nav__list">Portfolio</a>
+          </li>
+          <li>
+            <a href="#" class="nav__list">Contacts</a>
+          </li>
+        </ul>
+        <img src="./src/images/Vector.png" alt="#" class="img__block" />
+      </div>
+    </header>
+    <main>
+      <section class="container hero">
+        <!-- Надо разобраться, как отцентровать <h1> и <р> относительно друг друг друга -->
+        <div class="about__hero">
+          <div class="block__name__hero">
+            <h1>
+              Denis<br />
+              Novik
+            </h1>
+          </div>
+          <div class="block__about__hero">
+            <p>
+              UX | UI designer<br />
+              24 years old, Minsk
+            </p>
+          </div>
+        </div>
+        <div class="photo__hero">
+          <img src="./src/images/main_img.png" alt="" />
+        </div>
+      </section>
+      <!-- Что-то намудрил здесь с div, потом посмотреть -->
+      <!-- <section class="about bg_grey">
+        <div class="container">
+          <div class="text__size">
+            <div class="text">
+              <h2>About me</h2>
+            </div>
+            <div class="text">
+              <p>
+                Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
+                design and everything connected with it.
+              </p>
+            </div>
+            <div class="text">
+              <p>
+                I'm studying at courses "Web and mobile design interfaces" in
+                IT-Academy.
+              </p>
+            </div>
+            <div class="text">
+              <p>
+                Ready to implement excellent projects with wonderful people.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="about bg_grey">
+        <div class="container about__container__padding">
+          <div class="text__size">
+            <h2 class="text">About me</h2>
+            <p class="text">
+              Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
+              design and everything connected with it.
+            </p>
+            <p class="text">
+              I'm studying at courses "Web and mobile design interfaces" in
+              IT-Academy.
+            </p>
+            <p class="text">
+              Ready to implement excellent projects with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="skills__text">
+          <h2 class="skills__padding">Skills</h2>
+          <p class="p__padding">I work in such programs as</p>
+        </div>
+        <div class="skills">
+          <div class="photoshop">
+            <img src="./src/icons/ps.svg" alt="" class="position__main" />
+            <p class="position__relaitive">Adobe<br />Photoshop</p>
+            <div class="stars">
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/white_star.svg" alt="" />
+            </div>
+          </div>
+          <div class="illustrator">
+            <img src="./src/icons/ai.svg" alt="" class="position__main" />
+            <p class="position__relaitive">
+              Adobe<br />
+              Illustrator
+            </p>
+            <div class="stars">
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/white_star.svg" alt="" />
+              <img src="./src/icons/stars/white_star.svg" alt="" />
+            </div>
+          </div>
+          <div class="effects">
+            <img src="./src/icons/ae.svg" alt="" class="position__main" />
+            <p class="position__relaitive">
+              Adobe<br />
+              After Effects
+            </p>
+            <div class="stars">
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/white_star.svg" alt="" />
+            </div>
+          </div>
+          <div class="figma">
+            <img src="./src/icons/figma.svg" alt="" class="position__main" />
+            <p class="position__relaitive">Figma</p>
+            <!-- Звездочки у последней иконки не опускаются также, как у остальных, почему? -->
+            <div class="stars">
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/black_star.svg" alt="" />
+              <img src="./src/icons/stars/white_star.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio bg_grey">
+        <div class="container sites">
+          <h2 class="subtitle__portfolio">Portfolio</h2>
+          <figure>
+            <img src="./src/images/woman_img.png" alt="" />
+            <figcaption>
+              <a href="#" target="_blank" class="black__link"
+                >Online fashion store - Homepage</a
+              >
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./src/images/reebok_web.png" alt="" />
+            <figcaption>
+              <a href="#" target="_blank" class="black__link"
+                >Reebok Store - Concept</a
+              >
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./src/images/braun_web.png" alt="" />
+            <figcaption>
+              <a href="#" target="_blank" class="black__link"
+                >Braun Landing Page - Concept
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer class="container flex__all">
+      <div class="contatact__box contact__me">
+        <h2 class="contatact__box__padding">Contacts</h2>
+        <p class="contatact__box__padding">
+          Want to know more or just chat?<br />
+          You are welcome!
+        </p>
+        <a href="" class="send__btn">Send message</a>
+      </div>
+      <div class="contatact__box messengers">
+        <img src="./src/icons/in.svg" alt="" />
+        <img src="./src/icons/inst.svg" alt="" />
+        <img src="./src/icons/behance.svg" alt="" />
+        <img src="./src/icons/surface1 7.svg" alt="" />
+      </div>
+      <div class="postscriptum">
+        <p class="postscriptum">
+          Like me on <br />
+          LinkedIn, Instagram, Behance, Dribble
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
